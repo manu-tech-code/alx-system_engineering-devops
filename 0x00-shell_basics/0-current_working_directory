@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(realpath "${BASH_SOURCE:-$0}")
+echo ${BASH_SOURCE:-$0}
