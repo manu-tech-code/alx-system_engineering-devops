@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 ./0-current_working_directory
+=======
+echo $(realpath "${BASH_SOURCE:-$0}")
+>>>>>>> b1b4c5a (script update)
